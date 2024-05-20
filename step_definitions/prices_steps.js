@@ -20,7 +20,6 @@ Given("I open Google Finance {string} page", async function (symbol) {
 /**
  * Step definition for collecting prices at regular intervals.
  * Timeout is set to -1 to disable the default timeout of 5000ms.
- * @param {string} symbol - The symbol of the price to collect.
  * @param {number} pollInterval - The interval in seconds between price collection.
  * @param {number} collectDuration - The duration in minutes for price collection.
  */
